@@ -69,6 +69,16 @@ void heap_sort(int *array, size_t size);
 void Lsd_radix_sort(int *inputArray, size_t size, size_t lsd);
 void radix_sort(int *array, size_t size);
 
+/* Bitonic Sort functions */
+void modified_bitonic_merge(int *array, int leftIndex,
+														int rightIndex, int dir);
+void bitonic_sort_recursion(int *array, int leftIndex,
+													int rightIndex, int direction, size_t size);
+void bitonic_sort(int *array, size_t size);
+
+
+
+
 /* Main functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
