@@ -60,6 +60,11 @@ void recursion_merger(int *merged_array, int *original_array,
 														size_t left, size_t right);
 void merge_sort(int *array, size_t size);
 
+
+/* Heap Sort functions */
+void custom_heap(int *heap, size_t heap_size, size_t root, size_t array_size);
+void heap_sort(int *array, size_t size);
+
 /* Main functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
