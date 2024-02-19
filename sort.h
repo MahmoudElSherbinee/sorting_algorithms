@@ -50,6 +50,11 @@ size_t list_length(listint_t *head);
 void node_swicher(listint_t **list, listint_t **ptr);
 void cocktail_sort_list(listint_t **list);
 
+/* Counting Sort functions */
+void counting_sort(int *array, size_t size);
+
+
+
 
 
 /* Main functions */
