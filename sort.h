@@ -78,7 +78,8 @@ void bitonic_sort(int *array, size_t size);
 
 /* Quick Sort - Hoare Partition scheme functions */
 void quick_sort_hoare(int *array, size_t size);
-
+int hoare_partition(int *array, int left_index,
+					int right_index, size_t array_size);
 
 /* Main functions */
 void print_array(const int *array, size_t size);
