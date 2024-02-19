@@ -30,6 +30,7 @@ void bubble_sort(int *arr, size_t s);
 int length_of_linked_list(listint_t *head);
 void insertion_sort_list(listint_t **list);
 
+void selection_sort(int *array, size_t size);
 
 /* Main functions */
 void print_array(const int *array, size_t size);
