@@ -42,10 +42,16 @@ void quick_sort_recursive(int *array, int left_index,
 													int right_index, size_t array_size);
 void quick_sort(int *array, size_t size);
 
-
-
-
+/* Shell Sort functions */
 void shell_sort(int *array, size_t size);
+
+/* Cocktail Sort functions */
+size_t list_length(listint_t *head);
+void node_swicher(listint_t **list, listint_t **ptr);
+void cocktail_sort_list(listint_t **list);
+
+
+
 /* Main functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
