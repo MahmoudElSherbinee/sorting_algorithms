@@ -53,9 +53,12 @@ void cocktail_sort_list(listint_t **list);
 /* Counting Sort functions */
 void counting_sort(int *array, size_t size);
 
-
-
-
+/* Mrege Sort functions */
+void subarray_merger(int *merged_array, int *original_array, size_t left,
+					size_t middle, size_t right);
+void recursion_merger(int *merged_array, int *original_array,
+														size_t left, size_t right);
+void merge_sort(int *array, size_t size);
 
 /* Main functions */
 void print_array(const int *array, size_t size);
