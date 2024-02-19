@@ -65,6 +65,10 @@ void merge_sort(int *array, size_t size);
 void custom_heap(int *heap, size_t heap_size, size_t root, size_t array_size);
 void heap_sort(int *array, size_t size);
 
+/* Radix Sort functions */
+void Lsd_radix_sort(int *inputArray, size_t size, size_t lsd);
+void radix_sort(int *array, size_t size);
+
 /* Main functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
